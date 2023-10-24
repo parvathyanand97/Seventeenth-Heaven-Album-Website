@@ -1,0 +1,200 @@
+body {
+    margin: 0 0 0 0;
+}
+
+
+.navigation-bar {
+    height: 54px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #C2DFF3;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.links {
+
+    flex-direction: row;
+    align-content: flex-end;
+
+}
+
+a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.logo {
+    padding-left: 10px;
+}
+
+.heading-banner {
+    margin-top: 54px;
+    height: 80vh;
+    background-color: rgba(2, 44, 65, 0.7);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    
+}
+
+.heading-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 60px;
+    padding-right: 60px;
+    flex-wrap: wrap;
+    background-color: gold;
+    height: 100%;
+    width:40%;
+}
+.heading-image{
+    width: 60%;
+    background-image: url("../assets/seventeen-11th-mini-album-seventeenth-heaven-concept-photos-v0-dQJu3DD4iNNfh0xZazhua7M2xQfxnTebmCuLgQtNu94 copy 2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+
+}
+.title-1 {
+    font-family: "DynaPuff", sans-serif;
+    color: rgb(14, 126, 245);
+    font-size: 72px;
+    margin-bottom: 10px;
+}
+
+.title-2 {
+    font-family: "DynaPuff", sans-serif;
+    color: white;
+    font-size: 72px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+button {
+    background-color: rgb(14, 126, 245);
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+
+}
+
+.tracklist {
+    background-image: url("../assets/c8ce14f73c99c8a22b9a5fe6fb3732c4.jpeg");
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.album-versions {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #C2DFF3;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.albums {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.version {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+
+}
+
+h2 {
+    text-align: center;
+    font-family: "DynaPuff", sans-serif;
+    color: rgb(14, 126, 245);
+
+}
+.review {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: gold;
+    display: flex;
+    justify-content: center;
+}
+.quote {
+    
+    padding: 30px;
+    width: 70%;
+}
+blockquote {
+    font-family: "DynaPuff", sans-serif;
+    color: rgb(14, 126, 245);
+    font-size: 32px;
+    border-left-style: solid;
+    border-width: 2px;
+    border-color: rgb(14, 126, 245) ;
+    line-height: 1.3;
+    margin: 0;
+    padding-left: 20px;
+
+}
+
+.calltoaction-banner {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #C2DFF3;
+
+
+}
+
+.callout-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    width:50%;
+}
+
+footer {
+    color: white;
+    height: 54px;
+    background-color: rgb(14, 126, 245);
+    text-align: center;
+    padding: 10px;
+
+}
